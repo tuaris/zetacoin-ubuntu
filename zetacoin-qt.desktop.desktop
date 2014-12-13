@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Bitcoin
-Comment=Bitcoin P2P Cryptocurrency
-Exec=bitcoin-qt %u
+Name=Zetacoin
+Comment=Zetacoin P2P Cryptocurrency
+Exec=zetacoin-qt %u
 Terminal=false
 Type=Application
-Icon=bitcoin128
-MimeType=x-scheme-handler/bitcoin;
+Icon=zetacoin128
+MimeType=x-scheme-handler/zetacoin;
 Categories=Office;Finance;
 Name[en_US]=zetacoin-qt.desktop
