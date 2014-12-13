@@ -1,14 +1,12 @@
 Format: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?rev=174
 Upstream-Name: Zetacoin
-Upstream-Contact: Satoshi Nakamoto <satoshin@gmx.com>
  irc://#zetacoin@freenode.net
-Source: http://sourceforge.net/projects/zetacoin/files/
- https://github.com/zetacoin/zetacoin
+Source: https://github.com/zetacoin/zetacoin
 
 Files: *
-Copyright: 2009-2012, Zetacoin Core Developers
+Copyright: 2009-2014, Zetacoin Core Developers
 License: Expat
-Comment: The Zetacoin Core Developers encompasses the current developers listed on zetacoin.org,
+Comment: The Zetacoin Core Developers encompasses the current developers listed on zetacoin.com,
          as well as the numerous contributors to the project.
 
 Files: src/json/*
@@ -20,7 +18,8 @@ Copyright: 1998, Todd C. Miller <Todd.Miller@courtesan.com>
 License: ISC
 
 Files: debian/*
-Copyright: 2010-2011, Jonas Smedegaard <dr@jones.dk>
+Copyright: 2014-2015, Daniel Morante <dr@jones.dk>
+	   2010-2011, Jonas Smedegaard <dr@jones.dk>
            2011, Matt Corallo <matt@bluematt.me>
 License: GPL-2+
 
@@ -56,7 +55,7 @@ Comment: Icon Pack: Human-O2
 Files: src/qt/res/icons/transaction*.png
 Copyright: md2k7
 License: Expat
-Comment: Site: https://zetacointalk.org/index.php?topic=15276.0
+Comment: Site: https://bitcointalk.org/index.php?topic=15276.0
 
 Files: src/qt/res/icons/configure.png, src/qt/res/icons/quit.png,
       src/qt/res/icons/editcopy.png, src/qt/res/icons/editpaste.png,
@@ -67,9 +66,9 @@ License: LGPL
 Comment: Icon Pack: Crystal SVG
 
 Files: src/qt/res/icons/zetacoin.png, src/qt/res/icons/toolbar.png
-Copyright: Bitboy (optimized for 16x16 by Wladimir van der Laan)
+Copyright: Giskard (forum)
 License: PUB-DOM
-Comment: Site: https://zetacointalk.org/?topic=1756.0
+Comment: Site: https://bitcointalk.org/index.php?topic=267545.0
 
 Files:  scripts/img/reload.xcf, src/qt/res/movies/*.png
 Copyright: Everaldo (Everaldo Coelho)
@@ -79,8 +78,8 @@ Comment: Icon Pack: Kids
 
 Files: src/qt/res/images/splash2.jpg
 License: PUB-DOM
-Copyright: Crobbo (forum)
-Comment: Site: https://zetacointalk.org/index.php?topic=32273.0
+Copyright: Giskard (forum)
+Comment: Site: https://bitcointalk.org/index.php?topic=267545.0
 
 
 License: Expat

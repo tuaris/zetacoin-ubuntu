@@ -1,9 +1,8 @@
 Source: zetacoin
 Section: utils
 Priority: optional
-Maintainer: Jonas Smedegaard <dr@jones.dk>
-Uploaders: Micah Anderson <micah@debian.org>
-Build-Depends: debhelper,
+Maintainer: Daniel Morante <daniel@morante.net>
+Build-Depends: debhelper (>= 9),
  devscripts,
  automake,
  bash-completion,
@@ -21,7 +20,7 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.zetacoin.org/
+Homepage: http://www.zetacoin.com/
 Vcs-Git: git://github.com/zetacoin/zetacoin.git
 Vcs-Browser: http://github.com/zetacoin/zetacoin
 
@@ -29,14 +28,14 @@ Package: zetacoind
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Zetacoin is a free open source peer-to-peer electronic cash system that
- is completely decentralized, without the need for a central server or
- trusted parties.  Users hold the crypto keys to their own money and
- transact directly with each other, with the help of a P2P network to
- check for double-spending.
+ Zetacoin is a free open source peer-to-peer electronic cash system with 
+ fast conformations that is completely decentralized, without the need 
+ for a central server or trusted parties.  Users hold the crypto keys 
+ to their own money and transact directly with each other, with the 
+ help of a P2P network to check for double-spending.
  .
  Full transaction history is stored locally at each client.  This
- requires 20+ GB of space, slowly growing.
+ requires 2+ GB of space, slowly growing.
  .
  This package provides zetacoind, a combined daemon and CLI tool to
  interact with the daemon.
@@ -45,13 +44,13 @@ Package: zetacoin-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Zetacoin is a free open source peer-to-peer electronic cash system that
- is completely decentralized, without the need for a central server or
- trusted parties.  Users hold the crypto keys to their own money and
- transact directly with each other, with the help of a P2P network to
- check for double-spending.
+ Zetacoin is a free open source peer-to-peer electronic cash system with 
+ fast conformations that is completely decentralized, without the need 
+ for a central server or trusted parties.  Users hold the crypto keys 
+ to their own money and transact directly with each other, with the 
+ help of a P2P network to check for double-spending.
  .
  Full transaction history is stored locally at each client.  This
- requires 20+ GB of space, slowly growing.
+ requires 2+ GB of space, slowly growing.
  .
  This package provides Zetacoin-Qt, a GUI for Zetacoin based on Qt.
