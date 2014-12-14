@@ -5,7 +5,7 @@ DEB_INSTALL_EXAMPLES_zetacoind += debian/examples/*
 DEB_INSTALL_MANPAGES_zetacoind += debian/manpages/*
 
 %:
-	dh --with bash-completion $@
+	dh $@
 
 override_dh_auto_clean:
 	if [ -f Makefile ]; then $(MAKE) distclean; fi
@@ -16,4 +16,3 @@ override_dh_auto_configure:
 	./configure
 
 override_dh_auto_test:
-	make check
