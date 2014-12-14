@@ -1,27 +1,27 @@
 Zetacoin for Debian
 ===============
 
-Zetacoin Debian Package Files
-
 To build a .deb package do the following:
 
+- Install dependencies according to https://github.com/zetacoin/zetacoin/blob/master/doc/build-unix.md
 - Download the Zetacoin source tarball and extract into an empty directory.
-- Rename the zetacoin source directory to zetacoin_<version> (ie. 'zetacoin_0.9.2.4')
-- Compress the directory as 'zetacoin_<version>.orig.tar.gz'.
-- You should now have something like:
+- Rename the zetacoin source directory to zetacoin_VERSION (ie. 'zetacoin_0.9.2.4')
+- Compress the directory as 'zetacoin_VERSION.orig.tar.gz'.
+
+You should now have something like:
 
 	|-- directory
 	| |-- zetacoin_0.9.2.4
 	| |-- zetacoin_0.9.2.4.orig.tar.gz
 
-- Copy the 'debian' folder from this reposirory into the 'zetacoin_<version>' directory:
+Copy the 'debian' folder from this reposirory into the 'zetacoin_<version>' directory:
 
 	|-- directory
 	| |-- zetacoin_0.9.2.4
 	|   `-- debian
 	| |-- zetacoin_0.9.2.4.orig.tar.gz
 
-- Install dependencies
+Install dependencies **:
 
 	apt-get install dh-make build-essential
 	apt-get install devscripts fakeroot debootstrap pbuilder
@@ -32,7 +32,7 @@ To build a .deb package do the following:
 	apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
 	apt-get install libqrencode-dev
 
-- cd into the directory and run
+Enter the directory and run:
 
 	debuild -us -uc
 
@@ -43,3 +43,9 @@ You will then have two packages for your platform, a Debian source package and .
 	zetacoind_0.9.2.4-1_amd64.deb
 	zetacoin-qt_0.9.2.4-1_amd64.deb
 
+** For Debian 7 (Wheezy) and later:
+ The oldstable repository contains db4.8 packages.
+ Add the following line to /etc/apt/sources.list,
+ replacing [mirror] with any official debian mirror.
+
+	deb http://[mirror]/debian/ oldstable main
