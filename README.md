@@ -14,7 +14,7 @@ You should now have something like:
 	| |-- zetacoin_0.9.2.4
 	| |-- zetacoin_0.9.2.4.orig.tar.gz
 
-Copy the 'debian' folder from this reposirory into the 'zetacoin_<version>' directory:
+Copy the 'debian' folder from this repo into the 'zetacoin_VERSION' directory:
 
 	|-- directory
 	| |-- zetacoin_0.9.2.4
