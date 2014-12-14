@@ -1,0 +1,23 @@
+Debian-specific Zetacoin usage notes
+===================================
+
+
+Upgrading Problems
+------------------
+
+Zetacoin uses a recent (at compile time) version of Berkeley DB.
+
+Unfortunately Zetacoin is not clever enough to automatically update its
+database, so if you fail to restart Zetacoin after a package update, the
+database may be outdated and need manual update.
+
+The following might work:
+
+    db4.8_recover -h ~/.zetacoin
+    db_upgrade -h ~/.zetacoin wallet.dat
+
+Above commands need the packages db-util and db4.8-util installed.
+If that fails then try with db4.7-util instead.
+
+
+ -- Daniel Morante <danie@morante.net>  Sun, 14 Dec 2014 15:03:52 -0500
