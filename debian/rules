@@ -12,8 +12,11 @@ override_dh_auto_clean:
 	rm -rf Makefile.in aclocal.m4 configure src/Makefile.in src/bitcoin-config.h.in src/build-aux src/qt/Makefile.in src/qt/test/Makefile.in src/test/Makefile.in
 
 override_dh_auto_configure:
-	mv src/qt/res/icons/bitcoin.png src/qt/res/icons/zetacoin.png
 	./autogen.sh
 	./configure
 
 override_dh_auto_test:
+
+override_dh_auto_install:
+	cp src/qt/res/icons/bitcoin.png src/qt/res/icons/zetacoin.png
+	dh_auto_install
