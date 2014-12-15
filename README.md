@@ -23,14 +23,16 @@ Copy the 'debian' folder from this repo into the 'zetacoin_VERSION' directory:
 
 Install dependencies **:
 
-	apt-get install dh-make build-essential
-	apt-get install devscripts fakeroot debootstrap pbuilder
-	apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev
-	apt-get install libboost-all-dev
-	apt-get install libdb4.8-dev libdb4.8++-dev
-	apt-get install libminiupnpc-dev
-	apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
-	apt-get install libqrencode-dev
+	sudo apt-get install dh-make build-essential
+	sudo apt-get install devscripts fakeroot debootstrap pbuilder
+	sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev
+	sudo apt-get install libboost-all-dev
+	sudo add-apt-repository ppa:bitcoin/bitcoin
+	sudo apt-get update
+	sudo apt-get install libdb4.8-dev libdb4.8++-dev
+	sudo apt-get install libminiupnpc-dev
+	sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
+	sudo apt-get install libqrencode-dev
 
 Enter the directory and run:
 
