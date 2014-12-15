@@ -1,4 +1,4 @@
 usr/local/bin/zetacoin-qt usr/bin
-debian/zetacoin.png usr/share/pixmaps
+src/qt/res/icons/zetacoin.png usr/share/pixmaps
 debian/zetacoin-qt.desktop usr/share/applications
 debian/zetacoin-qt.protocol usr/share/kde4/services/
