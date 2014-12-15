@@ -43,3 +43,9 @@ You will then have two packages for your platform, a Ubunutu source package and 
 	zetacoind_0.9.2.4-1_amd64.deb
 	zetacoin-qt_0.9.2.4-1_amd64.deb
 
+** For Debian 7 (Wheezy) and later:
+ The oldstable repository contains db4.8 packages.
+ Add the following line to /etc/apt/sources.list,
+ replacing [mirror] with any official debian mirror.
+
+	deb http://[mirror]/debian/ oldstable main
