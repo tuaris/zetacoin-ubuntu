@@ -19,13 +19,13 @@ Build-Depends: debhelper (>= 9),
  libqt4-dev,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
-Standards-Version: 3.9.2
+Standards-Version: 3.9.6
 Homepage: http://www.zetacoin.com/
 Vcs-Git: git://github.com/zetacoin/zetacoin.git
 Vcs-Browser: http://github.com/zetacoin/zetacoin
 
 Package: zetacoind
-Architecture: any
+Architecture: any-alpha any-amd64 any-arm any-i386 any-ia64 any-mipsel any-sh4
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
  Zetacoin is a free open source peer-to-peer electronic cash system with 
@@ -41,7 +41,7 @@ Description: peer-to-peer network based digital currency - daemon
  interact with the daemon.
 
 Package: zetacoin-qt
-Architecture: any
+Architecture: any-alpha any-amd64 any-arm any-i386 any-ia64 any-mipsel any-sh4
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
  Zetacoin is a free open source peer-to-peer electronic cash system with 

@@ -1,3 +1,9 @@
+zetacoin (0.9.2.4-1trusty1) trusty; urgency=low
+
+  * Mark for Ubuntu Trusty.
+
+ -- Daniel Morante <daniel@morante.net>  Tue, 16 Dec 2014 07:57:00 -0500
+
 zetacoin (0.9.2.4-1) UNRELEASED; urgency=low
 
   [ Daniel Morante ]
