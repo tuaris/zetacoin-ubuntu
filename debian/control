@@ -6,6 +6,7 @@ Build-Depends: debhelper (>= 9),
  devscripts,
  automake,
  bash-completion,
+ libboost-chrono-dev,
  libboost-system-dev (>> 1.35) | libboost-system1.35-dev,
  libdb4.8++-dev,
  libssl-dev,
@@ -19,7 +20,7 @@ Build-Depends: debhelper (>= 9),
  libqt4-dev,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
-Standards-Version: 3.9.6
+Standards-Version: 3.9.5
 Homepage: http://www.zetacoin.com/
 Vcs-Git: git://github.com/zetacoin/zetacoin.git
 Vcs-Browser: http://github.com/zetacoin/zetacoin

@@ -1,2 +1,3 @@
+debian/manpages/zetacoin-qt.1
 debian/manpages/zetacoind.1
 debian/manpages/zetacoin.conf.5

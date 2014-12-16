@@ -13,8 +13,11 @@ override_dh_auto_clean:
 	rm -f src/qt/res/icons/zetacoin.png
 
 override_dh_auto_configure:
+	chmod +x autogen.sh
+	chmod +x share/genbuild.sh
+	chmod +x src/leveldb/build_detect_platform
 	./autogen.sh
-	./configure
+	./configure #--with-incompatible-bdb
 
 override_dh_auto_test:
 

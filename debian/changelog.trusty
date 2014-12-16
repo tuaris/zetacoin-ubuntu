@@ -1,3 +1,9 @@
+zetacoin (0.9.2.4-2trusty1) trusty; urgency=low
+
+  * Mark for Ubuntu Trusty.
+
+ -- Daniel Morante <daniel@morante.net>  Tue, 16 Dec 2014 14:39:00 -0500
+
 zetacoin (0.9.2.4-2) UNRELEASED; urgency=low
 
   * Apply upstream patch to fix boost build on some platforms
